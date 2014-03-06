@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
-using System.Text;
 using Grasshopper.Kernel;
 using JsonPath;
 using Newtonsoft.Json.Linq;
@@ -10,7 +9,7 @@ namespace ru.Mathrioshka.ghJSON
 {
     public class JPathComponent : GH_Component
     {
-        private JsonPathContext FParser = new JsonPathContext { ValueSystem = new JsonNetValueSystem() };
+        private readonly JsonPathContext FParser = new JsonPathContext { ValueSystem = new JsonNetValueSystem() };
        
         public JPathComponent():base("JPath", "JPath", "Get data from JObject by JPath query", "Extra", "JSON") {}
 
@@ -18,6 +17,8 @@ namespace ru.Mathrioshka.ghJSON
         {
             get { return new Guid("82E4C254-1A3E-457F-AD8B-80A824E3A53E"); }
         }
+
+        protected override Bitmap Icon { get { return Icons.JPath; } }
 
         protected override void RegisterInputParams(GH_InputParamManager pManager)
         {

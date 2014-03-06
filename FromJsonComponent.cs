@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using Grasshopper.Kernel;
 using Newtonsoft.Json.Linq;
 
@@ -7,12 +8,14 @@ namespace ru.Mathrioshka.ghJSON
     public class FromJsonComponent : GH_Component
     {
 
-        public FromJsonComponent():base("FromJSON", "FromJSON", "Parse JSON string", "Data", "JSON"){}
+        public FromJsonComponent():base("FromJSON", "FromJSON", "Parse JSON string", "Extra", "JSON"){}
 
         public override Guid ComponentGuid
         {
             get { return new Guid("475E86C2-41FA-4F8E-9C7C-07E1E0AE06A9"); }
         }
+
+        protected override Bitmap Icon { get { return Icons.FromJson; } }
 
         protected override void RegisterInputParams(GH_InputParamManager pManager)
         {
