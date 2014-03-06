@@ -2,6 +2,8 @@
 *~.xml
 Assets/Binary/
 out/
+packages/
+Resources/
 
 #Visual Studio files
 *.[Oo]bj
