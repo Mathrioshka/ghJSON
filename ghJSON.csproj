@@ -59,7 +59,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\ChildComponent.cs" />
     <Compile Include="FromJsonComponent.cs" />
+    <Compile Include="Helpers\CollectionComponents.cs" />
+    <Compile Include="Helpers\GetElementComponent.cs" />
     <Compile Include="Icons.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -69,6 +72,7 @@
     <Compile Include="JsonNetValueSystem.cs" />
     <Compile Include="jsonpath-0.5.1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helpers\AnyAllComponents.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -14,7 +14,7 @@
    id="svg2996"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="FromJson.svg"
+   sodipodi:docname="FromJsonShadow.svg"
    inkscape:export-filename="D:\Dropbox\Mathrioshka Code\ghJSON\Resources\FromJson.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -117,7 +117,7 @@
      inkscape:cx="10.764892"
      inkscape:cy="12.258403"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3115"
      showgrid="true"
      inkscape:window-width="1858"
      inkscape:window-height="1057"
@@ -150,17 +150,17 @@
        transform="matrix(0.97857143,0,0,0.97857143,-0.60599494,21.529155)"
        style="filter:url(#filter3179)">
       <path
-         style="fill:none;stroke:#000000;stroke-width:3.08046889;stroke-linejoin:miter;stroke-miterlimit:79.84031677"
+         style="fill:none;stroke:#000000;stroke-width:2.05540967;stroke-linejoin:miter;stroke-miterlimit:79.84031677"
          inkscape:connector-curvature="0"
-         d="m 9.5402344,1045.1824 c 0,2.5618 2.0777346,4.6396 4.6395266,4.6396 l 0,0 c 2.56177,0 4.640501,-2.0778 4.640501,-4.6396 l 0,-13.9208 -4.640501,0 9.280004,0"
+         d="m 13.909743,1044.1731 c 0,1.7093 1.386345,3.0957 3.095674,3.0957 l 0,0 c 1.709312,0 3.096323,-1.3864 3.096323,-3.0957 l 0,-9.2886 -3.096323,0 6.191982,0"
          stroke-miterlimit="79.8403193612775"
          id="path7378"
-         inkscape:export-filename="D:\Dropbox\Desktop\path9981.png"
+         inkscape:export-filename="D:\Dropbox\Mathrioshka Code\ghJSON\Resources\FromJson.png"
          inkscape:export-xdpi="23.040001"
          inkscape:export-ydpi="23.040001" />
       <path
          style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Send)"
-         d="m 1,1037.9612 12.169247,0"
+         d="m 1.6192649,1039.7641 12.1692471,0"
          id="path9981"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="23.040001"

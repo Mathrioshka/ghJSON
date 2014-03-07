@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="JPathShadow.svg"
-   inkscape:export-filename="D:\Dropbox\Mathrioshka Code\ghJSON\Resources\JsonPath.png"
+   inkscape:export-filename="D:\Dropbox\Mathrioshka Code\ghJSON\Resources\JPath.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -147,12 +147,12 @@
      transform="translate(0,-1028.3622)">
     <g
        id="g3115"
-       transform="matrix(0.97857143,0,0,0.97857143,-0.60599494,21.529155)"
+       transform="matrix(0.97857143,0,0,0.97857143,-0.78755964,22.204104)"
        style="filter:url(#filter3179)">
       <path
-         style="fill:none;stroke:#000000;stroke-width:3.08046889;stroke-linejoin:miter;stroke-miterlimit:79.84031677"
+         style="fill:none;stroke:#000000;stroke-width:2.05540943;stroke-linejoin:miter;stroke-miterlimit:79.84031677"
          inkscape:connector-curvature="0"
-         d="m 9.312784,1045.1824 c 0,2.5618 2.077735,4.6396 4.639527,4.6396 l 0,0 c 2.56177,0 4.640501,-2.0778 4.640501,-4.6396 l 0,-13.9208 -4.640501,0 9.280004,0"
+         d="m 12.051488,1043.4834 c 0,1.7093 1.386346,3.0957 3.095674,3.0957 l 0,0 c 1.709314,0 3.096324,-1.3864 3.096324,-3.0957 l 0,-9.2885 -3.096324,0 6.191982,0"
          stroke-miterlimit="79.8403193612775"
          id="path7378"
          inkscape:export-filename="D:\Dropbox\Desktop\path9981.png"
@@ -161,15 +161,15 @@
       <text
          xml:space="preserve"
          style="font-size:40.87591171px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         x="1.6411628"
-         y="1051.0129"
+         x="3.8704989"
+         y="1048.3542"
          id="text3004"
          sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan3006"
-           x="1.6411628"
-           y="1051.0129"
-           style="font-size:28.6131382px;line-height:125%">/</tspan></text>
+           x="3.8704989"
+           y="1048.3542"
+           style="font-size:22.4817524px;line-height:125%">/</tspan></text>
     </g>
   </g>
 </svg>

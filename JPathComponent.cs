@@ -11,7 +11,7 @@ namespace ru.Mathrioshka.ghJSON
     {
         private readonly JsonPathContext FParser = new JsonPathContext { ValueSystem = new JsonNetValueSystem() };
        
-        public JPathComponent():base("JPath", "JPath", "Get data from JObject by JPath query", "Extra", "JSON") {}
+        public JPathComponent():base("JSON Path", "JPath", "Get data from JObject by JPath query", "Extra", "JSON") {}
 
         public override Guid ComponentGuid
         {
@@ -23,7 +23,7 @@ namespace ru.Mathrioshka.ghJSON
         protected override void RegisterInputParams(GH_InputParamManager pManager)
         {
             pManager.AddGenericParameter("JObject", "JO", "JSON Object", GH_ParamAccess.item);
-            pManager.AddTextParameter("JPath Query", "JPQ", "JPath query for the needed data", GH_ParamAccess.item);
+            pManager.AddTextParameter("JSONPath Query", "JPQ", "JSONPath query for the needed data", GH_ParamAccess.item);
         }
 
         protected override void RegisterOutputParams(GH_OutputParamManager pManager)

@@ -8,7 +8,7 @@ namespace ru.Mathrioshka.ghJSON
     public class FromJsonComponent : GH_Component
     {
 
-        public FromJsonComponent():base("FromJSON", "FromJSON", "Parse JSON string", "Extra", "JSON"){}
+        public FromJsonComponent():base("From JSON", "FrmJSON", "Parse JSON string", "Extra", "JSON"){}
 
         public override Guid ComponentGuid
         {
