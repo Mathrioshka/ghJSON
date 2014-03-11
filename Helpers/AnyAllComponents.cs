@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using Grasshopper.Kernel;
 
 namespace ru.Mathrioshka.ghJSON.Helpers
@@ -41,20 +42,24 @@ namespace ru.Mathrioshka.ghJSON.Helpers
             get { return new Guid("6C72158C-203E-44B2-A54C-E5617D0A8462"); }
         }
 
+        protected override Bitmap Icon { get { return Icons.AnyParent; } }
+
         protected override string Action
         {
             get { return ""; }
         }
     }
 
-    public class AllComponent : AbstractAnyAllComponent
+    public class AllChildrenComponent : AbstractAnyAllComponent
     {
-        public AllComponent() : base("All Children", "AllChldrn", "JSONPath helper. Get all children from the parent object.", "Extra", "JSONPath") { }
+        public AllChildrenComponent() : base("Get All Children", "AllChldrn", "JSONPath helper. Get all children from the parent object.", "Extra", "JSONPath") { }
 
         public override Guid ComponentGuid
         {
             get { return new Guid("30ECA708-4ACC-4113-BCFA-E75949FABEF1"); }
         }
+
+        protected override Bitmap Icon { get { return Icons.GetAllChildren; } }
 
         protected override string Action
         {

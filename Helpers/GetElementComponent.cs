@@ -1,14 +1,19 @@
 ﻿using System;
+using System.Drawing;
 using Grasshopper.Kernel;
 
 namespace ru.Mathrioshka.ghJSON.Helpers
 {
     public class GetElementComponent : GH_Component
     {
+        public GetElementComponent() : base("Get Element", "Element", "JSONPath helper. Get element from collection by index or range.", "Extra", "JSONPath") { }
+
         public override Guid ComponentGuid
         {
             get { return new Guid("0A17C4F3-A975-4045-90F2-D6E5FAAA197B"); }
         }
+
+        protected override Bitmap Icon { get { return Icons.GetElement; } }
 
         protected override void RegisterInputParams(GH_InputParamManager pManager)
         {
@@ -27,7 +32,7 @@ namespace ru.Mathrioshka.ghJSON.Helpers
             string index = null;
 
             da.GetData(0, ref collection);
-            da.GetData(0, ref index);
+            da.GetData(1, ref index);
 
             if(String.IsNullOrEmpty(collection) || String.IsNullOrEmpty(index)) return;
 

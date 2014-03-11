@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using Grasshopper.Kernel;
 
 namespace ru.Mathrioshka.ghJSON.Helpers
@@ -42,6 +43,8 @@ namespace ru.Mathrioshka.ghJSON.Helpers
             get { return new Guid("1E2664AB-25FF-4A01-B5A3-09A4C89CC311"); }
         }
 
+        protected override Bitmap Icon { get { return Icons.GetAllElements; } }
+
         protected override string Action
         {
             get { return "*"; }
@@ -57,6 +60,8 @@ namespace ru.Mathrioshka.ghJSON.Helpers
             get { return new Guid("F017BC53-C63F-423D-9586-39DC40BB5293"); }
         }
 
+        protected override Bitmap Icon { get { return Icons.GetFirstElement; } }
+
         protected override string Action
         {
             get { return "0"; }
@@ -71,6 +76,8 @@ namespace ru.Mathrioshka.ghJSON.Helpers
         {
             get { return new Guid("E572F4D1-ED02-4157-93C8-E8B7667212C5"); }
         }
+
+        protected override Bitmap Icon { get { return Icons.GetLastElement; } }
 
         protected override string Action
         {

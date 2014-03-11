@@ -59,7 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helpers\ChildComponent.cs" />
+    <Compile Include="Helpers\GetChildComponent.cs" />
     <Compile Include="FromJsonComponent.cs" />
     <Compile Include="Helpers\CollectionComponents.cs" />
     <Compile Include="Helpers\GetElementComponent.cs" />
@@ -78,7 +78,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\AnyParent.png" />
     <Content Include="Resources\FromJson.png" />
+    <Content Include="Resources\GetAllChildren.png" />
+    <Content Include="Resources\GetAllElements.png" />
+    <Content Include="Resources\GetChild.png" />
+    <Content Include="Resources\GetElement.png" />
+    <Content Include="Resources\GetFirstElement.png" />
+    <Content Include="Resources\GetLastElement.png" />
     <Content Include="Resources\JPath.png" />
   </ItemGroup>
   <ItemGroup>

@@ -1,16 +1,19 @@
 ﻿using System;
+using System.Drawing;
 using Grasshopper.Kernel;
 
 namespace ru.Mathrioshka.ghJSON.Helpers
 {
-    public class ChildComponent : GH_Component
+    public class GetChildComponent : GH_Component
     {
-        public ChildComponent() : base("Get Child", "Child", "JSONPath helper. Get child from object by name.", "Extra", "JSONPath") { }
+        public GetChildComponent() : base("Get Child", "Child", "JSONPath helper. Get child from object by name.", "Extra", "JSONPath") { }
 
         public override Guid ComponentGuid
         {
             get { return new Guid("7E57C608-E095-4F38-AFD5-41C84AA9A6F3"); }
         }
+
+        protected override Bitmap Icon { get { return Icons.GetChild; } }
 
         protected override void RegisterInputParams(GH_InputParamManager pManager)
         {
