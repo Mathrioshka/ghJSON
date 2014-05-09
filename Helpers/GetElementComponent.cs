@@ -6,7 +6,7 @@ namespace ru.Mathrioshka.ghJSON.Helpers
 {
     public class GetElementComponent : GH_Component
     {
-        public GetElementComponent() : base("Get Element", "Element", "JSONPath helper. Get element from collection by index or range.", "Extra", "JSONPath") { }
+        public GetElementComponent() : base("Get Element", "Element", "JSONPath helper. Get element from the array by index, range or wildcard (*)", "Extra", "JSONPath") { }
 
         public override Guid ComponentGuid
         {
@@ -17,8 +17,8 @@ namespace ru.Mathrioshka.ghJSON.Helpers
 
         protected override void RegisterInputParams(GH_InputParamManager pManager)
         {
-            pManager.AddTextParameter("Collection", "C", "Objects collection", GH_ParamAccess.item);
-            pManager.AddTextParameter("Collection", "I", "Index or index range like 0:2 or 0,1", GH_ParamAccess.item);
+            pManager.AddTextParameter("Array", "A", "", GH_ParamAccess.item);
+            pManager.AddTextParameter("Collection", "I", "Index, index range ('0:2', '0,1') or wildcard (*)", GH_ParamAccess.item, "*");
         }
 
         protected override void RegisterOutputParams(GH_OutputParamManager pManager)

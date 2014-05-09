@@ -52,7 +52,7 @@ namespace ru.Mathrioshka.ghJSON.Helpers
 
     public class AllChildrenComponent : AbstractAnyAllComponent
     {
-        public AllChildrenComponent() : base("Get All Children", "AllChldrn", "JSONPath helper. Get all children from the parent object.", "Extra", "JSONPath") { }
+        public AllChildrenComponent() : base("Get All Children (Elements)", "All", "JSONPath helper. Get all children or elements from the object or collection.", "Extra", "JSONPath") { }
 
         public override Guid ComponentGuid
         {

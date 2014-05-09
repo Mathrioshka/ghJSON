@@ -61,7 +61,6 @@
   <ItemGroup>
     <Compile Include="Helpers\GetChildComponent.cs" />
     <Compile Include="FromJsonComponent.cs" />
-    <Compile Include="Helpers\CollectionComponents.cs" />
     <Compile Include="Helpers\GetElementComponent.cs" />
     <Compile Include="Icons.Designer.cs">
       <AutoGen>True</AutoGen>
